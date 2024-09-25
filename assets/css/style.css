@@ -202,6 +202,23 @@ hr {
         line-height: 75px;
         margin: 0 0.5rem;
     }
+/* Reasons Section */
+
+#benefits-physical,
+#benefits-mental {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+#benefits-physical > div,
+#benefits-mental > div {
+    width: 75%;
+}
+
+#benefits-mental > div {
+    text-align: end;
+    align-self: flex-end;
+}
 
     /* Main content */
     main {
